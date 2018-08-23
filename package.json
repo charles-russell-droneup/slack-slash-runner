@@ -1,0 +1,36 @@
+{
+  "name": "slack-slash-jira",
+  "version": "1.0.1",
+  "description": "Slack slash command handler for Jira. Get quick info on a Jira ticket right from Slack.",
+  "keywords": [
+    "slack",
+    "slack-slash",
+    "slash command",
+    "jira"
+  ],
+  "main": "index",
+  "dependencies": {
+    "jira": "git+https://github.com/adamgruber/node-jira.git"
+  },
+  "devDependencies": {
+    "eslint": "^2.7.0",
+    "eslint-config-airbnb": "^6.2.0",
+    "gulp": "^3.8.11",
+    "gulp-eslint": "^2.0.0",
+    "gulp-istanbul": "^0.9.0",
+    "gulp-mocha": "^2.0.1",
+    "istanbul": "^0.3.14",
+    "mochawesome": "^1.2.0",
+    "should": "^6.0.3",
+    "sinon": "^1.14.1"
+  },
+  "scripts": {
+    "test": "gulp"
+  },
+  "author": "Adam Gruber",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dowjones/slack-slash-jira"
+  },
+  "license": "MIT"
+}
